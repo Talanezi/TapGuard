@@ -99,6 +99,8 @@
 			fileSystemSynchronizedGroups = (
 				722B5B972EFD4E5800E1F218 /* Model */,
 				722B5B992EFD4E6300E1F218 /* Store */,
+				722B5BAB2EFD4E9D00E1F218 /* Components */,
+				722B5BAC2EFD4E9D00E1F218 /* Screens */,
 				722B5BAD2EFD4E9D00E1F218 /* Theme */,
 			);
 			name = TapGuard;

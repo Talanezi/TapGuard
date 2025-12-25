@@ -39,7 +39,7 @@ struct SettingsView: View {
                     Text("Status")
                     Spacer()
                     Text(model.isPro ? "Pro" : "Free")
-                        .foregroundStyle(model.isPro ? .tint : .secondary)
+                        .foregroundStyle(model.isPro ? AnyShapeStyle(.tint) : AnyShapeStyle(.secondary))
                 }
 
                 if !model.isPro {
