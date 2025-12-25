@@ -7,13 +7,54 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		722B5B842EFD488E00E1F218 /* TapGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		722B5B842EFD488E00E1F218 /* TapGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TapGuard.app; path = "/Users/thameralanezi/Desktop/TapGuard/build/Debug-iphoneos/TapGuard.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		722B5BB12EFD4E9D00E1F218 /* Exceptions for "App" folder in "TapGuard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				RootView.swift,
+				TapGuardApp.swift,
+				TapGuardUI.swift,
+			);
+			target = 722B5B832EFD488E00E1F218 /* TapGuard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		722B5B862EFD488E00E1F218 /* TapGuard */ = {
+		722B5B972EFD4E5800E1F218 /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TapGuard;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		722B5B992EFD4E6300E1F218 /* Store */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Store;
+			sourceTree = "<group>";
+		};
+		722B5BAA2EFD4E9D00E1F218 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				722B5BB12EFD4E9D00E1F218 /* Exceptions for "App" folder in "TapGuard" target */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		722B5BAB2EFD4E9D00E1F218 /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		722B5BAC2EFD4E9D00E1F218 /* Screens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		722B5BAD2EFD4E9D00E1F218 /* Theme */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,17 +73,13 @@
 		722B5B7B2EFD488E00E1F218 = {
 			isa = PBXGroup;
 			children = (
-				722B5B862EFD488E00E1F218 /* TapGuard */,
-				722B5B852EFD488E00E1F218 /* Products */,
+				722B5BAA2EFD4E9D00E1F218 /* App */,
+				722B5B972EFD4E5800E1F218 /* Model */,
+				722B5B992EFD4E6300E1F218 /* Store */,
+				722B5BAD2EFD4E9D00E1F218 /* Theme */,
+				722B5BAB2EFD4E9D00E1F218 /* Components */,
+				722B5BAC2EFD4E9D00E1F218 /* Screens */,
 			);
-			sourceTree = "<group>";
-		};
-		722B5B852EFD488E00E1F218 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				722B5B842EFD488E00E1F218 /* TapGuard.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +98,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				722B5B862EFD488E00E1F218 /* TapGuard */,
+				722B5B972EFD4E5800E1F218 /* Model */,
+				722B5B992EFD4E6300E1F218 /* Store */,
+				722B5BAD2EFD4E9D00E1F218 /* Theme */,
 			);
 			name = TapGuard;
 			packageProductDependencies = (
@@ -95,7 +134,7 @@
 			mainGroup = 722B5B7B2EFD488E00E1F218;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 722B5B852EFD488E00E1F218 /* Products */;
+			productRefGroup = 722B5B7B2EFD488E00E1F218;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
