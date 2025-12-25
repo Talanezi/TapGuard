@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TapGuardApp: App {
+    @StateObject private var model = AppModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(model)
+                .tint(Theme.tint)
         }
     }
 }

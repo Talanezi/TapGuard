@@ -17,7 +17,6 @@
 				Assets.xcassets,
 				RootView.swift,
 				TapGuardApp.swift,
-				TapGuardUI.swift,
 			);
 			target = 722B5B832EFD488E00E1F218 /* TapGuard */;
 		};
